@@ -6,8 +6,8 @@ import (
 )
 
 func main() {
-	amount := 12000
-	percent := 6
+	amount := 1_000_000_00
+	percent := 20
 	months := 36
 
 	monthly, total, over := credit.Calculate(amount, percent, months)
